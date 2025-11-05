@@ -1,7 +1,5 @@
 package com.pluralsight.streams;
 
-import com.pluralsight.Person;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -19,8 +17,8 @@ import java.util.Scanner;
 //Mia Robinson – 45
 //Lucas Wright – 27
 
-public class Main {
-    public static void main(String[] args) {
+public class Main {}
+  /*  public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         List<Person>people = new ArrayList<>();
@@ -39,6 +37,7 @@ public class Main {
         String name = scanner.nextLine().trim();
 
         List<Person> searchName = new ArrayList<>();
+
 
         for (Person person : people) {
             if (person.getFirstName().equals(name) || person.getLastName().equals(name)) {
@@ -66,3 +65,4 @@ public class Main {
 
     }
 }
+*/
